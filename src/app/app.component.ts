@@ -1,7 +1,11 @@
 import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
+import { CommonModule } from '@angular/common';
+
 import { Ejercicio1Component } from './ejercicio1/ejercicio1.component';
+
+
+export class FormsModule {}
 
 @Component({
   selector: 'app-root',
