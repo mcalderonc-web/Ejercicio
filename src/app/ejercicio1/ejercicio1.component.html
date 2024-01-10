@@ -1,7 +1,6 @@
-
-<div> id:{{Tipo1.id}} </div>
-<div>         
-    {{Tipo1.nombre | uppercase}}    </div>
-
-
-
+<h1>  Listado de Tipo de Ejercicios </h1>
+<ul class = "TipoNuevo"> 
+  <li ngFor=" let TipoEjercicios of TipoNuevo">
+    <span class = "TipoEjercicios">{{TipoEjercicios.id}} </span> {{TipoEjercicios.nombre}}
+  </li>   
+  </ul>
